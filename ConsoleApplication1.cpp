@@ -10,7 +10,7 @@ public:
     prods(string _name) :name(_name) { cout << ">_construct001;\n"; }
     ~prods() {};
 
-    virtual void prods_out() {
+    void prods_out() {
         cout << "Product: " << this->name << endl;
     }
 };
